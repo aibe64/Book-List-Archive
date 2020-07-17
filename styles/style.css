@@ -1,0 +1,63 @@
+form input{
+  text-align: center;
+}
+
+/* success and error */
+.success, .error{
+  color: white;
+  border: 5px;
+  margin: 5px 0 15 0;
+}
+
+/* success */
+.success{
+  background-color: rgb(70, 173, 70);
+}
+/* ---------- */
+
+/* error */
+.error{
+  background-color: rgb(233, 85, 85);
+}
+/* ---------- */
+
+/* BOOK LIST TABLE INFORMATION */
+div.card-body input[type = "search"]{
+  text-align: center;
+  background-color: rgb(243, 241, 241);
+}
+
+table.bookTable, th, td{
+  border: 1px solid rgb(228, 225, 225);
+}
+
+table.bookTable>thead{
+  background-color: rgb(243, 243, 242);
+  text-transform: uppercase;
+  font-size: smaller;
+}
+
+table.bookTable>thead th{
+  padding: 18px 20px;
+}
+
+table.bookTable td{
+  padding: 10px 20px;
+}
+
+table.bookTable tbody tr:nth-child(even){
+  background-color: rgb(252, 252, 252);
+}
+
+table.bookTable tbody tr>td:nth-child(1){
+text-align: left;
+}
+
+/* delete list */
+td>a.delList {
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(224, 21, 21);
+}
+
+/* ---------- */
